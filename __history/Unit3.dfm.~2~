@@ -1,0 +1,99 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 204
+  ClientWidth = 284
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image2: TImage
+    Left = 37
+    Top = 100
+    Width = 32
+    Height = 32
+    Picture.Data = {
+      0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
+      00200403000000815467C700000030504C5445FCBA04FCDE8CF4BE4CFCDA64FF
+      FFFFFCCA44FCBE14FCE294F4BE54FCDE74FCCE4CFCBA0CFCDA6CFCE28CFFFFFF
+      F4C254EB1AE3040000001074524E53FFFFFFFF00FFFFFFFFFFFFFFFFFF00FF68
+      1C3E83000000097048597300000B1300000B1301009A9C18000000CC49444154
+      78DA637CC7800A18C913F8C6C0852CF02D0148712D800B3C29DF00A4C27A112A
+      84C0B4C8AD84690C090CAB802A64C0026BC40B263014707EDD0B54B121809B61
+      4BC949E72F071CD83BB5199F6C0529304E8798C0B989F1DDD502CEEF704B4102
+      AE138022130A26547E9FC050C90014B857D0CEC009C44082A19D5389F19D1F50
+      160C41E21380025761DAC1A2202D701381FC5E55840A881A14152035203380F6
+      C111C81664150C0C400157643ED8A578051876631198B20089CF760C18EA09C8
+      2A16901973F805003F6462E1B8AF0C9B0000000049454E44AE426082}
+    Stretch = True
+    OnClick = Image2Click
+  end
+  object Label1: TLabel
+    Left = 45
+    Top = 138
+    Width = 28
+    Height = 14
+    Caption = 'URL:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 104
+    Top = 171
+    Width = 75
+    Height = 25
+    Caption = #1056#1072#1079#1084#1077#1089#1090#1080#1090#1100
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 79
+    Top = 108
+    Width = 142
+    Height = 21
+    TabOrder = 1
+  end
+  object Panel1: TPanel
+    Left = 37
+    Top = 16
+    Width = 212
+    Height = 78
+    TabOrder = 2
+    object Image1: TImage
+      Left = 25
+      Top = 3
+      Width = 165
+      Height = 70
+      Stretch = True
+    end
+  end
+  object Edit2: TEdit
+    Left = 79
+    Top = 135
+    Width = 142
+    Height = 21
+    TabOrder = 3
+  end
+  object FileOpenDialog1: TFileOpenDialog
+    FavoriteLinks = <>
+    FileTypes = <
+      item
+        DisplayName = 'PNG'
+        FileMask = '*.png'
+      end>
+    Options = []
+    OnFileOkClick = FileOpenDialog1FileOkClick
+    Left = 256
+    Top = 80
+  end
+end

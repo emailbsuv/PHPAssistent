@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.927,C:\Users\Bogdan\Documents\Embarcadero\Studio\Projects\Unit9.dfm=C:\Users\Bogdan\Documents\Embarcadero\Studio\PHPAssistent\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.605,C:\Users\Bogdan\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Bogdan\Documents\Embarcadero\Studio\PHPAssistent\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.188,C:\Users\Bogdan\Documents\Embarcadero\Studio\PHPAssistent\Project1.dproj=C:\Users\Bogdan\Documents\Embarcadero\Studio\PHPAssistent\PHPAssistent.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.394,=C:\Users\Bogdan\Documents\Embarcadero\Studio\Projects\AppletModule1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.715,=C:\Users\Bogdan\Documents\Embarcadero\Studio\Projects\AppletModule1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.216,=C:\Users\Bogdan\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.927,C:\Users\Bogdan\Documents\Embarcadero\Studio\Projects\Unit9.pas=C:\Users\Bogdan\Documents\Embarcadero\Studio\PHPAssistent\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.972,=C:\Users\Bogdan\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2021.03.07 17:34:27.997,=C:\Users\Bogdan\Documents\Embarcadero\Studio\PHPAssistent\Unit2.pas</Transaction>
+    <Transaction>2021.03.08 00:42:52.772,=C:\Users\Bogdan\Documents\Embarcadero\Studio\PHPAssistent\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>

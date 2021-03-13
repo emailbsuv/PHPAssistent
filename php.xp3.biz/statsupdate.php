@@ -17,7 +17,7 @@ $rq1 = mysqli_query($link, "SELECT * FROM users WHERE userid='".$_POST["userid"]
 $b=mysqli_num_rows($rq1);
 if($b>0){
 	$rq2 = mysqli_fetch_assoc($rq1);
-	if($rq2["lastvisitdatetime"]!=(date("Y-m-d H").":00:00"))mysqli_query($link, "UPDATE users SET hoursonline='".($rq2["hoursonline"]+1)."', lastvisitdatetime='".date("Y-m-d H").":00:00"."'");
+	if($rq2["lastvisitdatetime"]!=(date("Y-m-d H").":00:00"))mysqli_query($link, "UPDATE users SET hoursonline='".($rq2["hoursonline"]+1)."', lastvisitdatetime='".date("Y-m-d H").":00:00"."' WHERE userid='".$_POST["userid"]."'");
 }else{
 	$r1 = mysqli_query($link, "SELECT max( id ) as mid FROM users");
 	$r2 = mysqli_fetch_assoc($r1);$mid=$r2["mid"]+1;

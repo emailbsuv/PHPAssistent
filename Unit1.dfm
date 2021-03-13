@@ -133,8 +133,6 @@ object Form9: TForm9
       Caption = '1. '#1056#1072#1089#1089#1099#1083#1082#1072' '#1088#1077#1079#1102#1084#1077' ('#1045#1078#1077#1076#1085#1077#1074#1085#1072#1103')'
       OnHide = TabSheet1Hide
       OnShow = TabSheet1Show
-      ExplicitWidth = 777
-      ExplicitHeight = 608
       object ScrollBox1: TScrollBox
         Left = 0
         Top = 0
@@ -143,8 +141,6 @@ object Form9: TForm9
         HorzScrollBar.Style = ssFlat
         Align = alClient
         TabOrder = 0
-        ExplicitWidth = 777
-        ExplicitHeight = 504
         object Panel1: TPanel
           Left = -6
           Top = 3
@@ -1015,8 +1011,6 @@ object Form9: TForm9
         Height = 104
         Align = alBottom
         TabOrder = 1
-        ExplicitLeft = 112
-        ExplicitTop = 536
         object Label4: TLabel
           Left = 159
           Top = 6
@@ -1497,8 +1491,6 @@ object Form9: TForm9
     object TabSheet2: TTabSheet
       Caption = '2. '#1053#1072#1074#1099#1082#1080' ("'#1054' '#1089#1077#1073#1077'" '#1074' '#1088#1077#1079#1102#1084#1077' '#1085#1072' '#1089#1072#1081#1090#1072#1093')'
       ImageIndex = 1
-      ExplicitWidth = 777
-      ExplicitHeight = 608
       object Memo1: TMemo
         Left = 0
         Top = 0
@@ -1547,13 +1539,13 @@ object Form9: TForm9
         ScrollBars = ssVertical
         TabOrder = 0
         OnClick = Memo1Click
-        ExplicitWidth = 777
-        ExplicitHeight = 608
       end
     end
     object TabSheet3: TTabSheet
       Caption = '3. '#1056#1077#1079#1102#1084#1077' (PDF '#1076#1083#1103' '#1089#1090#1088#1072#1085#1099' - USA)'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
       ExplicitWidth = 777
       ExplicitHeight = 608
       object ScrollBox2: TScrollBox
@@ -9314,6 +9306,8 @@ object Form9: TForm9
     object TabSheet4: TTabSheet
       Caption = '4. '#1055#1077#1088#1077#1087#1080#1089#1082#1072' '#1089' '#1088#1072#1073#1086#1090#1086#1076#1072#1090#1077#1083#1077#1084
       ImageIndex = 3
+      ExplicitLeft = 0
+      ExplicitTop = 0
       ExplicitWidth = 777
       ExplicitHeight = 608
       object ScrollBox3: TScrollBox
@@ -28685,6 +28679,8 @@ object Form9: TForm9
     object TabSheet5: TTabSheet
       Caption = '5. '#1055#1086#1083#1077#1079#1085#1099#1077' '#1089#1089#1099#1083#1082#1080
       ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
       ExplicitWidth = 777
       ExplicitHeight = 608
       object Panel4: TPanel

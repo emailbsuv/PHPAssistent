@@ -1491,6 +1491,10 @@ object Form9: TForm9
     object TabSheet2: TTabSheet
       Caption = '2. '#1053#1072#1074#1099#1082#1080' ("'#1054' '#1089#1077#1073#1077'" '#1074' '#1088#1077#1079#1102#1084#1077' '#1085#1072' '#1089#1072#1081#1090#1072#1093')'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Memo1: TMemo
         Left = 0
         Top = 0

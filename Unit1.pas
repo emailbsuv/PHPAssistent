@@ -119,7 +119,9 @@ begin
   begin
     intervaldays := (((Form9.ScrollBox1.Components[i] as TPanel).Components[4] as TComboBox).Text);
     lastvisitdtime := (((Form9.ScrollBox1.Components[i] as TPanel).Components[6] as TEdit).Text);
-    dtimedelta := MinutesBetween(Now,IncMilliSecond(IncMinute(StrToDateTime(lastvisitdtime,FmtStngs),intervaldays.ToInt64*24*60)));
+//    dtimedelta := MinutesBetween(Now,IncMilliSecond(IncMinute(StrToDateTime(lastvisitdtime,FmtStngs),intervaldays.ToInt64*24*60)));
+    dtimedelta := MinutesBetween(Now,IncMilliSecond(StrToDateTime(lastvisitdtime,FmtStngs)));
+
     if (dtimedelta >= (intervaldays.ToInteger*24*60)) OR (dtimedelta <=0) then
     begin
        ((Form9.ScrollBox1.Components[i] as TPanel).Components[5] as TProgressBar).Position := 100;
@@ -603,7 +605,8 @@ begin
     FmtStngs.ShortDateFormat := 'yyyy-mm-dd';
     FmtStngs.TimeSeparator := ':';
     FmtStngs.LongTimeFormat := 'hh:nn:ss';
-    dtimedelta := MinutesBetween(Now,IncMilliSecond(IncMinute(StrToDateTime(dtime,FmtStngs),intervaldays.ToInt64*24*60)));
+//    dtimedelta := MinutesBetween(Now,IncMilliSecond(IncMinute(StrToDateTime(dtime,FmtStngs),intervaldays.ToInt64*24*60)));
+    dtimedelta := MinutesBetween(Now,IncMilliSecond(StrToDateTime(dtime,FmtStngs)));
 
 
     panel :=TPanel.Create(nil);

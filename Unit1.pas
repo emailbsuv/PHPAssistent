@@ -130,7 +130,7 @@ begin
     else
     begin
        ((Form9.ScrollBox1.Components[i] as TPanel).Components[5] as TProgressBar).State := pbsNormal;
-       ((Form9.ScrollBox1.Components[i] as TPanel).Components[5] as TProgressBar).Position := 100-round(100/((intervaldays.ToInteger*24*60)/dtimedelta));
+       ((Form9.ScrollBox1.Components[i] as TPanel).Components[5] as TProgressBar).Position := round(100/((intervaldays.ToInteger*24*60)/dtimedelta));
     end;
   end;
 
@@ -679,7 +679,7 @@ begin
     else
     begin
        pblastvisit.State := pbsNormal;
-       pblastvisit.Position := 100-round(100/((intervaldays.ToInteger*24*60)/dtimedelta));
+       pblastvisit.Position := round(100/((intervaldays.ToInteger*24*60)/dtimedelta));
     end;
     pblastvisit.Width := 150;
     pblastvisit.Align := alRight;
